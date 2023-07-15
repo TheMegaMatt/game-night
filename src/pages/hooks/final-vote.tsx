@@ -42,6 +42,9 @@ export const useFinalVote = () => {
                 if (voter === 'Gabriele Piersanti') {
                     result[player].kill++;
                 }
+                if (player === 'Gabriele Piersanti') {
+                    result[player].kill++;
+                }
                 result[player].kill++;
             }
             for (const player of vote.save) {
